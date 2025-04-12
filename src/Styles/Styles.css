@@ -1,11 +1,12 @@
+Stles
 body {
-    font-family: Arial, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
     margin: 0;
     background-color: #f4f4f4;
   }
   
   .title {
-    text-align: center;
+    text-align: right;
     margin-top: 2rem;
   }
   
@@ -24,7 +25,7 @@ body {
   }
   
   .tour-card img {
-    width: 100%;
+    width: 80%;
     height: auto;
     border-radius: 8px;
   }
@@ -43,6 +44,7 @@ body {
     align-items: center;
   }
   
+  Price formating
   .tour-price {
     font-weight: bold;
     color: #333;
