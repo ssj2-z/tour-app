@@ -1,3 +1,4 @@
+//Component tour card (Individually)
 import { useState } from 'react';
 
 const TourCard = ({ id, name, info, price, image, onRemove }) => {
