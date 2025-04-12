@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import TourCard from './TourCard';
 
+//Tours being fetched, displayed and listed
 const Gallery = ({ tours, setTours, onRemove }) => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -13,7 +14,7 @@ const Gallery = ({ tours, setTours, onRemove }) => {
         setLoading(false);
       })
       .catch(() => {
-        setError('Error loading data');
+        setError('Error loading data'); //Placement if error fail
         setLoading(false);
       });
   }, [setTours]);
