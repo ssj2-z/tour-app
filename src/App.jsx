@@ -5,6 +5,7 @@ import './styles/styles.css';
 function App() {
   const [tours, setTours] = useState([]);
 
+  // Adding filters
   const removeTour = (id) => {
     const updatedTours = tours.filter((tour) => tour.id !== id);
     setTours(updatedTours);
